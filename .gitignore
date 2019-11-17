@@ -1,0 +1,14 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+0_faces_PLY/
+1a_anonymizingData.Rmd
+1a_anonymizingData.nb.html
+datafiles/_anonymize/
+dataFiles/fullFace_gpa_anon.rds
+dataFiles/regions/eyes_gpa_anon.rds
+dataFiles/regions/nose_gpa_anon.rds
+dataFiles/regions/mouth_gpa_anon.rds
+dataFiles/results/_PCoutput/
+z_old/

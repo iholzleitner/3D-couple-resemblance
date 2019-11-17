@@ -1,0 +1,179 @@
+f.partner,m.partner,f.age,m.age,fam.id,r.length,f.web,m.web,FULL CONSENT,age.diff,couple.id
+ks_75b5ad7e,ks_1251d4f3,37,36,2,NA,consent,consent,1,1,1
+ks_3454e32c,ks_f0937795,47,46,3,NA,consent,consent,1,1,2
+ks_6519c6ee,ks_9f26aa5b,33,32,14,NA,consent,consent,1,1,3
+ks_818e5521,ks_145ed7d6,33,33,20,NA,consent,consent,1,0,4
+ks_2eb8906e,ks_57d58b62,44,54,21,NA,consent,consent,1,10,5
+ks_09103465,ks_a98e08cc,27,28,24,NA,consent,consent,1,1,6
+ks_29f9dc6f,ks_2396719e,41,39,26,7,consent,consent,1,2,7
+ks_365a8b86,ks_f41847e5,43,47,33,21,no consent,no consent,0,4,8
+ks_17253970,ks_20ec1088,45,44,46,21,consent,consent,1,1,9
+ks_26ea4597,ks_75e881ad,52,54,49,5,consent,consent,1,2,10
+ks_52f664cf,ks_dad8576b,26,27,53,12,consent,consent,1,1,11
+ks_e245d435,ks_baa1ef80,47,47,57,10,consent,consent,1,0,12
+ks_67394e97,ks_fdec0c5d,34,35,60,13,consent,consent,1,1,13
+ks_31be32bb,ks_f13c9a77,35,35,60,18,consent,consent,1,0,14
+ks_580a7986,ks_6006d542,61,64,60,38,consent,consent,1,3,15
+ks_57d44749,ks_7c79710e,48,44,63,17,no consent,no consent,0,4,16
+ks_fe1cb56f,ks_643ed9de,20,32,68,10,consent,consent,1,12,17
+ks_e5e8659e,ks_939fe840,37,NA,69,15,consent,consent,1,NA,18
+ks_e94c3be9,ks_b98c9c5f,37,40,81,7,consent,consent,1,3,19
+ks_b771cf70,ks_d32624bc,32,33,85,13,consent,consent,1,1,20
+ks_c7457b1a,ks_d75879c4,70,72,92,30,consent,consent,1,2,21
+ks_2e9a9dca,ks_a19d6c49,NA,65,99,46,consent,consent,1,NA,22
+ks_bf0bf11f,ks_9a8cc809,54,63,100,30,consent,consent,1,9,23
+ks_27a58457,ks_fc70b7eb,37,42,110,19,consent,consent,1,5,24
+ks_958f9952,ks_3e941d28,31,38,113,10,consent,consent,1,7,25
+ks_68614a17,ks_447240e1,46,44,117,19,consent,consent,1,2,26
+ks_0e4e1f7d,ks_59a25df3,34,35,121,1,consent,consent,1,1,27
+ks_304e1337,ks_43502817,38,39,127,9,consent,consent,1,1,28
+ks_a3527fcf,ks_fc679e6b,42,46,128,7,consent,consent,1,4,29
+ks_cb8f3099,ks_c8f20a1f,23,23,143,13,consent,consent,1,0,30
+ks_73ad74ea,ks_1f0cacfa,37,43,145,10,consent,consent,1,6,31
+ks_e35776f0,ks_00d006af,33,42,163,10,consent,consent,1,9,32
+ks_341e2010,ks_86617566,26,29,173,9,consent,consent,1,3,33
+ks_3268c7ef,ks_24ba696e,71,70,177,NA,consent,consent,1,1,34
+ks_c9e8d94f,ks_6662d905,29,28,180,7,consent,consent,1,1,35
+ks_06ee1236,ks_c0242ea2,40,43,182,NA,consent,consent,1,3,36
+ks_a02cf7ae,ks_c15a740a,32,44,191,NA,consent,consent,1,12,37
+ks_ea948d5b,ks_5ed5f4b5,36,36,195,16,consent,consent,1,0,38
+ks_7f542a09,ks_efdc3bc7,48,55,196,25,consent,no consent,0,7,39
+ks_7adae2f6,ks_86f15247,40,43,206,7,consent,consent,1,3,40
+ks_92d6ba3b,ks_0b8d746b,46,47,210,21,consent,consent,1,1,41
+ks_0e5536ea,ks_69d34709,28,33,219,NA,consent,consent,1,5,42
+ks_4eccdc10,ks_21f024ad,45,46,226,10,consent,consent,1,1,43
+ks_da42c15f,ks_2463b462,28,26,228,4,consent,consent,1,2,44
+ks_fc8f3cc0,ks_ce56480a,20,24,230,3,consent,consent,1,4,45
+ks_bb6a2df4,ks_48c9c951,40,40,236,13,consent,consent,1,0,46
+ks_d47fd3fc,ks_18c81467,47,51,241,22,no consent,consent,0,4,47
+ks_0432f8be,ks_2a01c8f4,32,39,242,16,consent,no consent,0,7,48
+ks_73c0cfde,ks_4db13d97,36,37,243,15,consent,no consent,0,31,49
+ks_2d534744,ks_7eb632b9,20,20,244,5,consent,consent,1,0,50
+ks_d7226e8f,ks_f1167769,41,40,245,15,consent,consent,1,1,51
+ks_589e92fe,ks_0212c7eb,37,35,249,10,consent,consent,1,2,52
+ks_02b6e8f4,ks_789b9eb8,48,48,251,30,consent,consent,1,0,53
+ks_a7405f41,ks_73b89b03,24,27,253,2,consent,consent,1,3,54
+ks_0ded503d,ks_2bb1f45a,37,42,254,16,consent,consent,1,5,55
+ks_3becdef6,ks_1e724ec2,42,45,255,NA,consent,consent,1,3,56
+ks_8e902118,ks_bb6e29ad,42,45,258,NA,consent,consent,1,3,57
+ks_e529ee57,ks_6a6ada92,33,37,259,NA,consent,consent,1,4,58
+ks_141ed706,ks_af623b64,19,34,264,2,consent,consent,1,15,59
+ks_f94b541c,ks_6ae2ce20,44,47,264,27,consent,consent,1,3,60
+ks_33ee11e9,ks_dc1f3781,44,55,266,14,consent,consent,1,11,61
+ks_e2db7fcf,ks_f0ca9eba,30,35,268,14,consent,consent,1,5,62
+ks_3ce396a7,ks_b057d7ea,33,32,271,15,consent,consent,1,1,63
+ks_471e4099,ks_7dc26192,64,69,272,39,consent,consent,1,5,64
+ks_2bbe6cd2,ks_936bc02c,42,56,274,12,no consent,no consent,0,14,65
+ks_35603e8f,ks_ab9f6b0f,64,67,280,43,consent,consent,1,3,66
+ks_5ff32e76,ks_cbb3bba9,39,44,282,14,consent,consent,1,5,67
+ks_9ea703fe,ks_68fb7120,42,47,285,NA,consent,no consent,0,5,68
+ks_34288c06,ks_fd5d2312,32,36,286,15,consent,consent,1,4,69
+ks_7aae46a7,ks_5366d072,36,39,287,9,consent,consent,1,3,70
+ks_3f046066,ks_3885f94d,62,62,287,42,consent,consent,1,0,71
+ks_7ac7d9e2,ks_438e3927,44,45,289,NA,consent,consent,1,1,72
+ks_42b58d6c,ks_7b0b1070,48,49,292,27,consent,consent,1,1,73
+ks_0faa6709,ks_e4c9acd7,22,22,293,8,consent,consent,1,0,74
+ks_e6a5dc24,ks_5d88d776,37,36,298,15,consent,consent,1,1,75
+ks_56404599,ks_07335a49,38,38,304,3,consent,consent,1,0,76
+ks_01d2f37a,ks_87cbb72e,36,36,308,12,consent,consent,1,0,77
+ks_fdf9fc1c,ks_ad169a54,45,45,309,10,consent,consent,1,0,78
+ks_1ad7d05f,ks_ee0f422a,48,48,318,NA,consent,consent,1,0,79
+ks_60defa36,ks_0269126b,50,51,319,17,consent,consent,1,1,80
+ks_b685c11f,ks_099d25e9,25,23,325,3,consent,consent,1,2,81
+ks_427a1d42,ks_e7066a81,21,24,330,NA,consent,consent,1,3,82
+ks_c9f6f116,ks_4732b266,31,34,336,NA,consent,consent,1,3,83
+ks_709c7b55,ks_8b77e2f5,35,51,340,8,consent,consent,1,16,84
+ks_bbb712bc,ks_320eee20,36,35,341,11,consent,consent,1,1,85
+ks_61e3296e,ks_cbcbdc9f,35,36,343,13,consent,consent,1,1,86
+ks_c230fbf2,ks_00fc700c,52,52,345,1,consent,consent,1,0,87
+ks_98ac8f41,ks_60886abe,31,34,347,9,consent,consent,1,3,88
+ks_bc546fba,ks_bb831e8c,46,46,375,18,consent,consent,1,0,89
+ks_1be6f82e,ks_b4f53d07,48,55,380,21,consent,consent,1,7,90
+ks_8c7de92e,ks_5fbd2745,35,35,387,16,consent,consent,1,0,91
+ks_c77d4283,ks_92e9772f,35,37,391,NA,consent,consent,1,2,92
+ks_c8525ba6,ks_9fe98657,48,47,398,30,consent,consent,1,1,93
+ks_c8e3e726,ks_f1925649,30,32,402,NA,consent,consent,1,2,94
+ks_50c94faf,ks_d66fe068,39,47,404,18,consent,consent,1,8,95
+ks_bd01eb9f,ks_9fc4b7d3,45,44,406,10,no consent,no consent,0,1,96
+ks_bdf181fa,ks_f60f98c6,48,43,408,13,consent,consent,1,5,97
+ks_073614da,ks_08a199dd,52,43,410,14,consent,consent,1,9,98
+ks_0868d3f2,ks_d9f527a2,NA,45,415,26,consent,consent,1,NA,99
+ks_81fa2d98,ks_70324d7f,35,38,416,11,consent,consent,1,3,100
+ks_5c886b70,ks_3b8f9123,36,39,417,16,consent,consent,1,3,101
+ks_44a55ad2,ks_40f66cb1,39,45,418,11,consent,consent,1,6,102
+ks_fb1ba124,ks_def317a8,NA,43,419,17,consent,consent,1,NA,103
+ks_20b6fddb,ks_69d3fa09,36,30,423,1,consent,consent,1,6,104
+ks_562713a0,ks_7d554298,40,42,427,10,consent,consent,1,2,105
+ks_ca4fa492,ks_502886fa,31,33,428,15,consent,consent,1,2,106
+ks_e5b3691f,ks_fd4a7fb9,39,41,434,18,consent,consent,1,2,107
+ks_f5a4c865,ks_75439e2c,33,38,439,14,consent,consent,1,5,108
+ks_dd93d669,ks_2a715c76,42,46,442,9,consent,consent,1,4,109
+ks_afaf1313,ks_e8af279c,43,39,448,12,consent,consent,1,4,110
+ks_3451b9ce,ks_3b78b34e,43,42,469,14,no consent,no consent,0,1,111
+ks_f9a8d6be,ks_e6479e85,47,47,475,17,consent,consent,1,0,112
+ks_8bec5d4f,ks_9aeb7957,34,49,480,12,consent,consent,1,15,113
+ks_40b54f07,ks_3dd90370,35,39,486,18,consent,consent,1,4,114
+ks_971c52a5,ks_865fe079,34,39,488,19,consent,consent,1,5,115
+ks_4cb71302,ks_9b446b42,41,42,497,22,consent,consent,1,1,116
+ks_23b2747b,ks_65025c3c,39,38,498,13,no consent,no consent,0,1,117
+ks_caf4abb3,ks_9821d2c9,37,41,507,15,consent,consent,1,4,118
+ks_d898997f,ks_87cca9f0,40,49,512,17,consent,consent,1,9,119
+ks_d448e030,ks_a852783f,45,45,513,30,consent,consent,1,0,120
+ks_17f7ee26,ks_863465dd,48,43,515,21,consent,consent,1,5,121
+ks_c56af118,ks_e5020ad9,40,40,517,20,consent,consent,1,0,122
+ks_e27c7818,ks_e53e8f53,43,46,519,24,consent,consent,1,3,123
+ks_3dd0d70a,ks_76abeae2,41,42,527,18,consent,consent,1,1,124
+ks_7e9ba818,ks_2d01698f,35,38,530,20,consent,consent,1,3,125
+ks_bf76fb35,ks_9bafdfc3,40,46,533,25,consent,consent,1,6,126
+ks_fab0e7d5,ks_64300b4d,41,45,542,17,no consent,no consent,0,4,127
+ks_3948b0fb,ks_3224022f,38,43,543,12,consent,no consent,0,5,128
+ks_f18bc0a1,ks_06ac49c2,47,48,551,4,consent,no consent,0,1,129
+ks_d4c8a029,ks_f278203f,32,37,559,13,consent,consent,1,5,130
+ks_ae4eb8a8,ks_eda3c06d,47,47,562,NA,consent,consent,1,0,131
+ks_b37d6849,ks_dba497a0,37,42,566,21,consent,consent,1,5,132
+ks_08056bdd,ks_619a89cd,30,NA,570,9,consent,consent,1,NA,133
+ks_93da8183,ks_905186ce,49,NA,570,24,consent,consent,1,NA,134
+ks_5178c23f,ks_3d1d5a14,39,39,577,NA,consent,consent,1,0,135
+ks_007e973e,ks_78848253,52,47,578,5,consent,consent,1,5,136
+ks_63f16076,ks_47422355,46,50,579,20,consent,consent,1,4,137
+ks_73aa8809,ks_ad987496,26,25,585,7,consent,consent,1,1,138
+ks_9b3518f1,ks_a45acb24,39,39,587,19,no consent,no consent,0,0,139
+ks_ecae7a41,ks_c7901bca,39,50,589,11,consent,consent,1,11,140
+ks_83e9f47c,ks_2f2d5503,28,29,596,4,consent,consent,1,1,141
+ks_bdc48c4d,ks_dab32d6f,45,49,607,20,consent,consent,1,4,142
+ks_8ea81b33,ks_6964fcb4,44,45,609,20,consent,consent,1,1,143
+ks_4c28fdf5,ks_f33a4126,25,26,610,0,consent,consent,1,1,144
+ks_4666f570,ks_26445c67,49,50,611,28,consent,consent,1,1,145
+ks_bfc09cdf,ks_8a85c129,41,40,620,19,consent,consent,1,1,146
+ks_d8a8cfd5,ks_fe90a927,30,35,625,6,consent,consent,1,5,147
+ks_0e79af7d,ks_26419291,33,33,625,5,consent,consent,1,0,148
+ks_eed28e3a,ks_9f4f0af0,62,64,625,37,consent,consent,1,2,149
+ks_5986b4fb,ks_376beda3,36,43,629,20,consent,consent,1,7,150
+ks_3835367d,ks_4104d5e0,46,48,640,11,consent,consent,1,2,151
+ks_b5191167,ks_2a82b580,40,46,644,13,consent,consent,1,6,152
+ks_78ee8e58,ks_b625cfa6,41,41,653,NA,consent,consent,1,0,153
+ks_961d1e40,ks_0b2ebf21,51,44,654,22,consent,consent,1,7,154
+ks_c4271fb7,ks_62883296,41,44,661,NA,consent,consent,1,3,155
+ks_f58fd30c,ks_54cbd05e,67,72,668,46,consent,consent,1,5,156
+ks_5efb8380,ks_aa2c4b14,37,37,676,20,consent,consent,1,0,157
+ks_ea94ee74,ks_9cb6404f,47,47,678,20,consent,no consent,0,0,158
+ks_c3420e57,ks_476e2498,47,36,684,9,consent,consent,1,11,159
+ks_1aba8a53,ks_54e365ef,46,47,685,22,consent,consent,1,1,160
+ks_18ded810,ks_fb354b80,75,76,687,52,consent,consent,1,1,161
+ks_d5e2502b,ks_3559395b,53,52,692,8,consent,consent,1,1,162
+ks_ac78432b,ks_b1bc57e9,46,48,699,14,consent,consent,1,2,163
+ks_71df6c9e,ks_532088f9,59,51,700,15,consent,consent,1,8,164
+ks_9ba206a0,ks_52207b65,28,44,701,5,consent,consent,1,16,165
+ks_c1e0ba93,ks_e03dc02b,37,44,705,16,consent,consent,1,7,166
+ks_0dfa16cb,ks_f8e149ac,48,49,706,25,consent,consent,1,1,167
+ks_d25490b0,ks_15bbc088,22,25,708,6,consent,consent,1,3,168
+ks_ed04f526,ks_323970d9,44,48,708,29,consent,consent,1,4,169
+ks_6fd4cf49,ks_bbaf270d,48,48,708,30,consent,consent,1,0,170
+ks_93e237b0,ks_6af7ffa9,39,35,710,8,consent,consent,1,4,171
+ks_04b2b801,ks_ec969a11,68,70,710,44,consent,consent,1,2,172
+ks_8be66983,ks_b108a7ae,33,37,713,12,consent,consent,1,4,173
+ks_d966ee64,ks_70c03487,43,43,718,20,consent,consent,1,0,174
+ks_14c0bd6d,ks_94d05168,42,42,722,20,consent,consent,1,0,175
+ks_63b653af,ks_10619b3d,36,39,725,22,consent,consent,1,3,176
+ks_a408a85a,ks_456f979d,55,69,728,35,consent,consent,1,14,177
+ks_ae195e55,ks_e12760db,44,43,729,15,consent,consent,1,1,178

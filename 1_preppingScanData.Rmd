@@ -1,0 +1,85 @@
+---
+title: "Supplemental script: preparing face data for analyses in main script"
+output: html_notebook
+---
+
+```{r message=FALSE}
+library(tidyverse)
+library(geomorph)
+library(Morpho)
+library(rgl)
+```
+
+# Full Face
+## Load surface scans
+Face scans were converted from OBJ to PLY format in a prior step so they can be read into R.
+
+```{r}
+# Create list of ids/files
+ids<-substr(list.files("./", pattern="*.ply"),1,8)
+
+ids.table<-data.frame(id=ids)
+#write_csv(ids.table,"ids.csv")
+
+files <- list.files("./", pattern="*.ply")
+
+# Define dimensions of data
+k<-60541 # number of vertices
+d<-3 # number of dimensions
+n<-length(files) # number of specimen
+
+# Create empty array of the right dimensions
+data.array<-array(0,c(k,d,n))
+
+# Populate array by importing ply files as mesh3d objects
+for(i in 1:length(files)){
+  temp.mesh <- file2mesh(files[i])
+  temp.vert <- t(temp.mesh$vb[1:3,]) # last row seems to be a 1 for every point...?
+  data.array[,,i]<-temp.vert
+}
+
+# Save array, so next time it can be loaded right away
+saveRDS(data.array, "fullFace_scans.rds")
+dimnames(data.array)[[3]]<-ids
+```
+
+## GPA
+Morpho::ProcGPA with default settings is used for GPA
+```{r eval=FALSE}
+data.gpa<-ProcGPA(data.array)
+#plot3d(data.gpa$mshape, box=FALSE, axes=FALSE)
+#rm(data.array) # to make some space
+saveRDS(data.gpa, "fullFace_gpa.rds")
+```
+
+# Facial regions
+```{r}
+regions<-c("eyes","nose","mouth")
+
+for (j in 1:length(regions)){
+  
+  files <- list.files(path=paste0("./_regions/",regions[j]), pattern="*.ply",full.names = TRUE)
+  
+  mesh <- file2mesh(files[1])
+  vert <- t(mesh$vb[1:3,])
+  k<-dim(vert)[1]
+  
+  data.array<-array(0,c(k,d,n))
+  
+  for(i in 1:length(files)){
+    temp.mesh <- file2mesh(files[i])
+    temp.vert <- t(temp.mesh$vb[1:3,])
+    
+    k<-dim(temp.vert)[1]
+    
+    data.array[,,i]<-temp.vert
+  }
+  dimnames(data.array)[[3]]<-ids
+  saveRDS(data.array, paste0("./",regions[j],"_scans.rds"))
+  
+  data.gpa<-ProcGPA(data.array)
+  
+  saveRDS(data.gpa, paste0("./",regions[j],"_gpa.rds"))
+  
+}
+```
