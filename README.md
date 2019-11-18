@@ -13,7 +13,7 @@ Files
 * 2_mainAnalysisScript: R code and output file for all analyses and plots reported in manuscript, as well as additional visualizations and analyses. The main output file can also be directly accessed in a browser at: http://facelab.org/3D-couple-resemblance/results.html - please allow time for loading!
 
 Please see 
-[session_info_20191118.txt](./session_info_20191118.txt) for details on used R packages and versions
+[session_info_20191118.txt](../blob/master/session_info_20191118.txt) for details on used R packages and versions
 
 
 Acknowledgments
