@@ -10,7 +10,7 @@ Files
 
 * 1_preppingScanData: R code for submitting delineated and re-warped face scans to Generalized Procrustes Analysis
 
-* 2_mainAnalysisScript: R code and output file for all analyses and plots reported in manuscript, as well as additional visualizations and analyses. The main output file can also be directly accessed in a browser at: http://facelab.org/3D-couple-resemblance/results.html - please allow time for loading!
+* 2_mainAnalysisScript: R code and output file for all analyses and plots reported in manuscript, as well as additional visualizations and analyses. The main output file can also be directly accessed at: http://facelab.org/3D-couple-resemblance/results.html - please allow time for loading!
 
 Please see 
 [session_info_20191118.txt](../master/session_info_20191118.txt) for details on used R packages and versions

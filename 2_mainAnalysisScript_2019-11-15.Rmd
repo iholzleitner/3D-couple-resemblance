@@ -54,7 +54,6 @@ couple.ids <- demo.raw %>%
   select(f.partner, m.partner, couple.id)
 ```
 
-## Participant age
 ```{r participant-age}
 age.summary <- demo.raw %>%
   gather(key = sex, value = id, f.partner, m.partner) %>%
@@ -69,7 +68,22 @@ age.summary <- demo.raw %>%
     age_SD = round(sd(age, na.rm = TRUE), 1),
     missing = sum(is.na(age))
   )
+```
 
+```{r rel-length}
+rlength.summary <- demo.raw %>%
+  summarise(
+    r.length.min = round(min(r.length, na.rm = TRUE), 1),
+    r.length.max = round(max(r.length, na.rm = TRUE), 1),
+    r.length.M = round(mean(r.length, na.rm = TRUE), 1),
+    r.length.SD = round(sd(r.length, na.rm = TRUE), 1),
+    missing = sum(is.na(r.length))
+            )
+```
+
+Participants were 178 White men (aged M±SD=`r age.summary[which(age.summary$sex.f=="Men"),]$age_mean`±`r age.summary[which(age.summary$sex.f=="Men"),]$age_SD`) and 178 White women (aged M±SD=`r age.summary[which(age.summary$sex.f=="Women"),]$age_mean`±`r age.summary[which(age.summary$sex.f=="Women"),]$age_SD`) in romantic relationships (relationship length ranged from less than a year to 52 years, M±SD=`r rlength.summary$r.length.M`±`r rlength.summary$r.length.SD` years). Participation was voluntary and each participant provided their informed written consent.
+
+```{r}
 age.summary %>%
   kable() %>%
   kable_styling()
@@ -102,17 +116,7 @@ demo.raw %>%
   guides(color = guide_legend("Sex"), fill = guide_legend("Sex"))
 ```
 
-## Relationship length
-```{r rel-length}
-rlength.summary <- demo.raw %>%
-  summarise(
-    r.length.min = round(min(r.length, na.rm = TRUE), 1),
-    r.length.max = round(max(r.length, na.rm = TRUE), 1),
-    r.length.M = round(mean(r.length, na.rm = TRUE), 1),
-    r.length.SD = round(sd(r.length, na.rm = TRUE), 1),
-    missing = sum(is.na(r.length))
-            )
-
+```{r}
 rlength.summary %>%
   kable() %>%
   kable_styling()
@@ -137,10 +141,8 @@ ggplot(filter(demo.raw, !is.na(r.length)), aes(x = r.length)) +
             show.legend = FALSE)
 ```
 
-Participants were 178 White men (aged M±SD=`r age.summary[which(age.summary$sex.f=="Men"),]$age_mean`±`r age.summary[which(age.summary$sex.f=="Men"),]$age_SD`) and 178 White women (aged M±SD=`r age.summary[which(age.summary$sex.f=="Women"),]$age_mean`±`r age.summary[which(age.summary$sex.f=="Women"),]$age_SD`) in romantic relationships (relationship length ranged from less than a year to 52 years, M±SD=`r rlength.summary$r.length.M`±`r rlength.summary$r.length.SD` years). Participation was voluntary and each participant provided their informed written consent.
-
 # CREATING CONTROL DISTRIBUTION
-In order to create a control distribution, we found all possible pairings between each woman and all men in the set who were within five year's of her actual partner's age. Repeating the analyses with men as target individuals gives the same pattern of results. As men and women within and between couples were of different ages, number of control pairings for women and men varied. For each woman in the sample, a minimum of two and a maximum of 91 male controls was available (median N=71); for each man, a minimum of two and a maximum of 83 male controls was available (median N=64; see figure below).
+In order to create a control distribution, we found all possible pairings between each woman and all men in the set who were within five years of her actual partner's age. Analyses with men as target individuals show the same pattern of results. As men and women within and between couples were of different ages, number of control pairings for women and men varied. For each woman in the sample, a minimum of two and a maximum of 91 male controls was available (median N=71); for each man, a minimum of two and a maximum of 83 male controls was available (median N=64; see figure below).
 
 ## Replace missing ages
 For six participants, no information on age was available. In order not to lose those six couples, the mean age difference between female and male partners was calculated, and missing ages of men/women replaced with the partner's age +/- the mean age difference.
